@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    z-index:5;
+    background-color: teal;
+    color: white;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 0px;
+    font-size: 258%;
+}
+
+body {
+    background-image: url(https://image.freepik.com/free-photo/white-stone-textures-for-background_1203-3096.jpg);
+    background-size: cover;
+    margin:0px;
+    border-top: solid grey, 5px;
+
+}
+
+.nav {
+    overflow: hidden;
+    background-color: white;
+    height: 10%;
+}
+
+.nav a {
+    float: right;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 10%;
+    margin-right: 10%;
+}
+
+#aboutme {
+    clear: both;
+    float: left;
+    font-size: 22px;
+    color: teal;
+    background-color: white;
+    border-bottom: solid grey 4px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 0%;
+    width:75%;
+    height:50px;
+    text-align: left;
+    padding:20px;
+}
+
+#aboutbox {
+    clear: both;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    width: 80%;
+    height: 540px;
+    background-color: white;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+#imageme {
+    image: relative;
+    float: left;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+#parame {
+    margin-top: 6%;
+}
+p {
+    position: relative;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom:0;
+}
+
+#contactme {
+    clear: both;
+    float: left;
+    font-size: 22px;
+    color: teal;
+    background-color: white;
+    border-bottom: solid grey 4px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 0%;
+    width:75%;
+    height:50px;
+    text-align: left;
+    padding:20px;
+}
+
+#contactbox {
+    clear: both;
+    position: relative;
+    text-align: left;
+    z-index: 1;
+    width: 80%;
+    height: 540px;
+    background-color: white;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+#contactform {
+    clear: both;
+    text-align: left;
+    position: absolute;
+    z-index: 3;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top:6%;
+    margin-bottom:0;
+    width: 100%;
+    
+}
+
+#namebox {
+    width: 75%;
+    text-align: left;
+
+}
+
+#emailbox {
+    width: 75%;
+    text-align: left;
+}
+
+#messagebox {
+    clear: both;
+    width: 75%;
+    height: 300px;
+    text-align: left;
+}
+
+#submitbutton {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    height: 35px;
+    width: 70px;
+}
+
+#copyright {
+    clear: both;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    text-align: center;
+    height: 5%;
+    width: 100%;
+    background-color: lightgrey;
+    font-size: 10px;
+    padding: 50px;
+    margin:0;
+    border-top: solid teal 10px;
+}
+
+#linkbox {
+    clear: both;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    width: 80%;
+    height: 540px;
+    background-color: white;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+#portme {
+    clear: both;
+    font-size: 22px;
+    color: teal;
+    background-color: white;
+    border-bottom: solid grey 4px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 0%;
+    width:75%;
+    height:50px;
+    text-align: left;
+    padding:20px;
+}
+
+.links {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+}
