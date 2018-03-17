@@ -14,7 +14,7 @@ h1 {
 }
 
 body {
-    background-image: url(https://image.freepik.com/free-photo/white-stone-textures-for-background_1203-3096.jpg);
+    background-image: url("images/stone.jpg");
     background-size: cover;
     margin:0px;
     border-top: solid grey, 5px;
@@ -72,7 +72,7 @@ body {
 }
 
 #imageme {
-    image: relative;
+    position: relative;
     float: left;
     margin-top: 0;
     margin-left: 2%;
@@ -82,13 +82,14 @@ body {
 
 #parame {
     margin-top: 6%;
+    margin-bottom:0px;
 }
 p {
     position: relative;
     text-align: left;
     margin-left: 1%;
     margin-right: 1%;
-    margin-bottom:0;
+    margin-bottom:0px;
 }
 
 #contactme {
@@ -111,7 +112,7 @@ p {
 
 #contactbox {
     clear: both;
-    position: relative;
+    position: absolute;
     text-align: left;
     z-index: 1;
     width: 80%;
@@ -165,9 +166,6 @@ p {
 
 #copyright {
     clear: both;
-    position: absolute;
-    left:0;
-    bottom: 0;
     text-align: center;
     height: 5%;
     width: 100%;
@@ -175,6 +173,7 @@ p {
     font-size: 10px;
     padding: 50px;
     margin:0;
+    margin-top: 560px;
     border-top: solid teal 10px;
 }
 
@@ -199,7 +198,7 @@ p {
     color: teal;
     background-color: white;
     border-bottom: solid grey 4px;
-    position: absolute;
+    position: relative;
     z-index: 2;
     margin-left: 11%;
     margin-right: 11%;
@@ -211,8 +210,13 @@ p {
 }
 
 .links {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.linkname {
+    clear: both;
     float: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 6%;
 }
