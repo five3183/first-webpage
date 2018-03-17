@@ -10,11 +10,11 @@ h1 {
     position: absolute;
     margin-left: 10%;
     margin-top: 0px;
-    font-size: 258%;
+    font-size: 259%;
 }
 
 body {
-    background-image: url("images/stone.jpg");
+    background-image: url("images/white.jpg");
     background-size: cover;
     margin:0px;
     border-top: solid grey, 5px;
@@ -173,7 +173,7 @@ p {
     font-size: 10px;
     padding: 50px;
     margin:0;
-    margin-top: 560px;
+    margin-top: 565px;
     border-top: solid teal 10px;
 }
 
@@ -183,13 +183,13 @@ p {
     text-align: left;
     z-index: 1;
     width: 80%;
-    height: 540px;
+    height: 640px;
     background-color: white;
     color: black;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 #portme {
@@ -210,13 +210,56 @@ p {
 }
 
 .links {
-    position: relative;
-    margin-top: 3%;
-    margin-left: 25%;
-    margin-right: 25%;
+    position: absolute;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom: 20px;
 }
 
-.linkname {
-    clear: both;
+#hangman {
     float: left;
+}
+
+#rpg {
+    float: left;
+}
+
+#trivia {
+    float: left;
+}
+
+#rutgers {
+    float: left;
+
+}
+
+#rps {
+    float: left;
+}
+.tags {
+    position: relative;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+#copyright2 {
+    clear: both;
+    position: relative;
+    text-align: center;
+    height: 5%;
+    width: 100%;
+    background-color: lightgrey;
+    font-size: 10px;
+    padding: 50px;
+    margin:0;
+    margin-top: 665px;
+    border-top: solid teal 10px;
 }
